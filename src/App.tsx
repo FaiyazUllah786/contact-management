@@ -1,26 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AddContact from "./components/AddContact";
+import AllContact from "./components/AllContact";
+import Contacts from "./components/Contacts";
+import "./index.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="m-4 flex gap-4 flex-col lg:flex-row justify-center items-center lg:items-start">
+      <AddContact />
+      <Contacts />
     </div>
   );
-}
+};
 
 export default App;
