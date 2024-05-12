@@ -5,7 +5,6 @@ import { useAppSelector, useAppDispatch } from "../Store/store";
 import { deleteContact, updateContact } from "../Store/features/contactSlice";
 import UpdateContactModal from "./UpdateContactModal";
 import DetailContactModal from "./DetailContactModal";
-import { nanoid } from "@reduxjs/toolkit";
 
 interface Contact {
   id: string;
