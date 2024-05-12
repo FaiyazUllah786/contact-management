@@ -1,5 +1,4 @@
 import AddContact from "./components/AddContact";
-import AllContact from "./components/AllContact";
 import Contacts from "./components/Contacts";
 import "./index.css";
 
